@@ -13,7 +13,7 @@ function setup(){
   sea = createSprite(0,0,400,400)
   sea.addImage(seaImg);
 
-  sea.velocityX = 4;
+  sea.velocityX = -4;
   if(sea.x < 0) {
       sea.x = sea.width/2;
    }
